@@ -1,6 +1,7 @@
 # diagramasSQL
 Criei alguns diagramas usando o Workbench MySQL, a fim de praticar e entender os conceitos de relacionamentos entre entidades no SQL, como chave primária, chave estrangeira, herança e etc.
-
+<br>
+<hr>
 DIAGRAMA ORDEM DE SERVIÇO
 <hr>
 Explicação: 
@@ -24,7 +25,10 @@ O pedido aberto, então será analisado, e um responsável será encarregado de 
 O pedido quando é aberto pelo cliente, gera automaticamente, uma ordem de serviço, contendo seu próprio ID, status, e uma chave estrangeira de "IdPedido", que liga o pedido com a ordem, pois um único pedido, pode gerar N novas ordens dependendo do que deve ser feito.
 ![Fluxo de Ordem de Serviço](https://github.com/user-attachments/assets/a8b67c0d-e320-4b13-a8d6-1af75aab3e45)
 
-------------------------------------------------------------------------------------------DIAGRAMA UNIVERSIDADE-------------------------------------------------------------------------------------------
+<br>
+<hr>
+
+DIAGRAMA UNIVERSIDADE
 
 Aluno
 
