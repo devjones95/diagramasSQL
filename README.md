@@ -31,47 +31,56 @@ O pedido quando é aberto pelo cliente, gera automaticamente, uma ordem de servi
 DIAGRAMA UNIVERSIDADE
 <hr>
 
-Aluno
+Criei um pequeno projeto de diagrama no Workbench do MySQL que representa uma entidade-relacionamento (ER) para uma base de dados de uma universidade:
 
+- Aluno
 Cada aluno tem um ID único.
 Alunos se matriculam em várias disciplinas.
-Matriculado
 
+- Matriculado
 Armazena quais alunos estão matriculados em quais disciplinas.
-Disciplina
 
+- Disciplina
 Cada disciplina tem um ID único.
 Pode ter pré-requisitos.
 É ministrada por um professor.
-Pré-Requisito das Disciplinas
 
+- Pré-Requisito das Disciplinas
 Liga as disciplinas aos seus pré-requisitos.
-Pré-Requisitos
 
+- Pré-Requisitos
 Representa os pré-requisitos que as disciplinas podem ter.
-Professor
 
+- Professor
 Cada professor tem um ID único.
 Pertence a um departamento.
-Departamento
 
+- Departamento
 Cada departamento tem um ID único, um nome e está em um campus.
 Oferece vários cursos.
-Curso
 
+- Curso
 Cada curso tem um ID único.
 Está associado a um departamento.
-Disciplina do Curso
 
+- Disciplina do Curso
 Liga as disciplinas aos cursos nos quais elas estão incluídas.
+
 Relacionamentos:
 Aluno: Um aluno pode se matricular em várias disciplinas.
+
 Matriculado: Mostra quais disciplinas os alunos estão cursando.
+
 Disciplina: Pode ter vários pré-requisitos e é ministrada por um professor.
+
 Pré-Requisito das Disciplinas: Liga disciplinas aos seus pré-requisitos.
+
 Professor: Um professor pode ministrar várias disciplinas e pertence a um departamento.
+
 Departamento: Um departamento pode ter vários cursos e professores.
+
 Curso: Um curso inclui várias disciplinas e pertence a um departamento.
+
 Essas entidades e relacionamentos formam a estrutura básica de como a universidade gerencia alunos, disciplinas, professores, cursos e departamentos.
 
 ![Diagrama - Universidade](https://github.com/user-attachments/assets/649edd4d-d1de-487c-84c2-67f857595fbf)
